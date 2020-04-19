@@ -1,0 +1,33 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Verdana;
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  padding: 0% 15%;
+}
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
+  }
+/* INIZIO HEADER */
+header {
+  color: white;
+  background-image: url(../img/background-header.png);
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-position: 107% 100%;
+  height: 500px;
+  background-color: #0b325a;
+}
+header .navigation .col{
+  float: left;
+}
