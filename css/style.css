@@ -28,6 +28,56 @@ header {
   height: 500px;
   background-color: #0b325a;
 }
-header .navigation .col{
+header .navigation .col {
   float: left;
 }
+header .navigation .logo {
+  width: 15%;
+}
+header .navigation .menu-center {
+  width: 45%;
+}
+header .navigation .menu-right {
+  width: 45%;
+  text-align: right;
+  float: left;
+}
+header .navigation .menu {
+  padding-top: 15px;
+}
+
+header .navigation .menu li {
+  display: inline-block;
+}
+header .navigation .menu li a{
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+header .navigation .menu li a:hover {
+  color: orange;
+}
+header .navigation .menu li a.login {
+  padding: 7px 24px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+header .navigation .menu li a.plan {
+  padding: 7px 24px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: green;
+  text-decoration: none;
+}
+header .teaser a{
+  padding: 7px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 1px;
+}
+header .teaser .h1{
+  color: white;
+  text-align: left;
+  font-size:
+}
+/* Fine Header */
